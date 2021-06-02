@@ -1,0 +1,9 @@
+﻿<Application x:Class="zoo_shop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:zoo_shop"
+             StartupUri="window/autoriz.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

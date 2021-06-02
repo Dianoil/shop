@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6fa08d53fa5e453eb91257916f1774ba" Name="Diagram1" ZoomLevel="73">
+        <EntityTypeShape EntityType="zoo_magaz.Categ_tovar" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="zoo_magaz.Employee" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="zoo_magaz.Order_product" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="zoo_magaz.Orders" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="zoo_magaz.Producti" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="zoo_magaz.Role" Width="1.5" PointX="1.5" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="zoo_magaz.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="zoo_magaz.FK_Producti_Categ_tovar" ManuallyRouted="false" />
+        <AssociationConnector Association="zoo_magaz.FK_Employee_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="zoo_magaz.FK_Orders_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="zoo_magaz.FK_Order_product_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="zoo_magaz.FK_Order_product_Producti" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
